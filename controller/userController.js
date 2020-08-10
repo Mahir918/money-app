@@ -2,7 +2,7 @@ const registerValidator = require('../validator/register')
 const loginValidator = require('../validator/login')
 const User = require('../model/User')
 const {serverError,resourseError} = require('../util/error')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 
 
